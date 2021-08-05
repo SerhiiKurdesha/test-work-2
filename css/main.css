@@ -47,6 +47,38 @@ h1 h2 h3 h4 {
 
 .header__menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  transition: 500ms;
+  transform-origin: right center;
+  transform: scaleX(0) translateX(20%);
+  opacity: 0;
+}
+
+.nav {
+  background-color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav__active {
+  transform: scaleX(1) translateX(0%);
+  opacity: 1;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  display: inline-block;
+  color: #222;
+  margin-right: 20px;
 }
 
 .header-btn {
