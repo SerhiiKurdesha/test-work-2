@@ -1,0 +1,52 @@
+.header{
+    background-color: blueviolet;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu{
+    display: flex;
+
+}
+.header-btn{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: $accent-color;
+    position: relative;
+}
+.header-btn .header__button,
+.header-btn .header__button::before,
+.header-btn .header__button::after{
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    left: 50%;
+    margin-left: -10px;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+
+    border-radius: 3px;
+}
+.header-btn .header__button::before,
+.header-btn .header__button::after{
+    content: '';
+    transition: 250ms;
+}
+.header-btn .header__button::before{
+    transform: translateY(-5px);
+}
+.header-btn .header__button::after{
+    transform: translateY(5px);
+}
+.header-btn__active .header__button{
+    height: 0;
+}
+.header-btn__active .header__button::before{
+    transform: rotate(45deg);
+}
+.header-btn__active .header__button::after{
+    transform: rotate(-45deg);
+}
