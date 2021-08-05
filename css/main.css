@@ -37,12 +37,19 @@ h1 h2 h3 h4 {
 }
 
 .header {
-  background-color: blueviolet;
+  background: grey;
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  height: 740px;
+  max-width: 1920;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header__nav {
   display: flex;
   justify-content: space-between;
+  padding: 30px 0;
 }
 
 .header__menu {
@@ -77,8 +84,19 @@ h1 h2 h3 h4 {
 
 .nav__link {
   display: inline-block;
-  color: #222;
+  color: #000000;
   margin-right: 20px;
+}
+
+.nav__item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #999999;
+}
+
+.nav__item:hover, .nav__item:focus {
+  color: #f7654a;
 }
 
 .header-btn {
@@ -127,5 +145,31 @@ h1 h2 h3 h4 {
 
 .header-btn__active .header__button::after {
   transform: rotate(-45deg);
+}
+
+.header__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 95px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 112px;
+  height: 171px;
+}
+
+.header__text {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 35px;
 }
 /*# sourceMappingURL=main.css.map */

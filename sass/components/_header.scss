@@ -1,9 +1,16 @@
 .header{
-    background-color: blueviolet;
+    background: grey;
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    height: 740px;
+    max-width: 1920;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header__nav{
     display: flex;
     justify-content: space-between;
+    padding: 30px 0;
 }
 .header__menu{
     display: flex;
@@ -32,8 +39,20 @@
 }
 .nav__link{
     display: inline-block;
-    color: #222;
+    color: $black-color;
     margin-right: 20px;
+}
+.nav__item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: $gray-color;
+
+    &:hover,
+    &:focus{
+        color: $accent-color;
+    }
 }
 .header-btn{
     display: block;
@@ -75,4 +94,32 @@
 }
 .header-btn__active .header__button::after{
     transform: rotate(-45deg);
+}
+
+.header__title{
+    font-family: $second-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: $white-color;
+    padding-top: 112px;
+
+    height: 171px;
+}
+.header__text{
+    font-family: $second-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $white-color;
+    margin-top: 35px;
 }
