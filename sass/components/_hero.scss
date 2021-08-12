@@ -1,0 +1,48 @@
+.hero-container{
+
+    background: #f7f7f7;
+    margin-top: 120px;
+}
+.hero-list{
+    display: flex;
+    justify-content: center;
+}
+.hero-item{
+    margin-left: 154px;
+    padding: 64px 0 54px 0;
+}
+.hero-item:first-child{
+    margin-left: 0;
+}
+.hero-title{
+    font-family: $second-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: $accent-color;
+}
+.hero-text{
+    font-family: $second-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $black-color;
+}
+.hero-text-two{
+    font-family: $second-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+    color: $gray-color;
+}

@@ -39,15 +39,19 @@
 }
 .nav__link{
     display: inline-block;
-    color: $black-color;
+    color: $gray-color;
     margin-right: 20px;
+
+    &:hover,
+    &:focus{
+        text-decoration: underline;
+        color: $accent-color;
+    }
 }
 .nav__item{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-
-    color: $gray-color;
 
     &:hover,
     &:focus{
