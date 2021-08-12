@@ -343,6 +343,8 @@ h1 h2 h3 h4 {
 .request__link:hover,
 .request__link:focus {
   background: #e9d8d8;
+  fill: #607480;
+  color: #607480;
 }
 
 .request__svg {

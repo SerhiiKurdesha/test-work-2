@@ -51,6 +51,8 @@
 .request__link:hover,
 .request__link:focus{
     background: $second-white-color;
+    fill: #607480;
+    color: #607480;
 }
 .request__svg{
     margin-right: 15px;
