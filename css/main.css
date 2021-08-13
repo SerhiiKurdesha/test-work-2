@@ -178,7 +178,7 @@ h1 h2 h3 h4 {
 }
 
 .hero-container {
-  background: #f7f7f7;
+  background: #F7F7F7;
   margin-top: 120px;
 }
 
@@ -350,5 +350,74 @@ h1 h2 h3 h4 {
 .request__svg {
   margin-right: 15px;
   vertical-align: middle;
+}
+
+.project {
+  padding: 150px 0;
+}
+
+.project__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.47;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 66px;
+}
+
+.project__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project__item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.project__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.project__item:nth-child(n+4) {
+  margin-bottom: 0;
+}
+
+.project__link {
+  display: block;
+  width: 350px;
+  height: 250px;
+  border: 1px solid transparent;
+  background: #F7F7F7;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project__link:hover,
+.project__link:focus {
+  background: #e2cccc;
+}
+
+.project__svg {
+  display: flex;
+  justify-content: center;
+  padding-top: 59px;
+  margin-bottom: 30px;
+}
+
+.project__text {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.47;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  width: 172px;
+  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */
