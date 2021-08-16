@@ -55,14 +55,6 @@
 .service__box{
     margin-top: 45px;
 }
-.service__name::before{
-    content: '';
-    display: flex;
-    width: 55px;
-    border: 6px solid $accent-color;
-
-    margin-bottom: 15px;
-}
 .service__name{
     font-family: $second-font;
     font-style: normal;
@@ -71,6 +63,15 @@
     line-height: 1.5em;
 
     color: $second-black-color;
+
+    &::before{
+        content: '';
+        display: flex;
+        width: 55px;
+        border: 6px solid $accent-color;
+
+        margin-bottom: 15px;
+    }
 }
 .service__item{
     width: 350px;
