@@ -1,0 +1,18 @@
+.portfolio__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio__item{
+    width: 25%;
+    height: 407px;
+    position: relative;
+    overflow: hidden;
+}
+.portfolio__photo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    transform: translate3d(-50%, -50%, 0);
+}

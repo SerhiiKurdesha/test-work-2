@@ -36,16 +36,19 @@
     border: 1px solid transparent;
     background: $second-white-color;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.project__link:hover,
-.project__link:focus{
-    background: #e2cccc;
+
+    &:hover,
+    &:focus{
+        background: #e2cccc;
+    }
 }
 .project__svg{
     display: flex;
     justify-content: center;
-    padding-top: 59px;
-    margin-bottom: 30px;
+    padding: 60px 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 .project__text{
     font-family: $second-font;
@@ -53,11 +56,10 @@
     font-weight: 500;
     font-size: 21px;
     line-height: 1.47;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: uppercase;
 
     color: $black-color;
     width: 172px;
-    margin: auto;
+    margin-top: 30px;
 }

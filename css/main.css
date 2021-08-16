@@ -36,6 +36,14 @@ h1 h2 h3 h4 {
   margin: 0 auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .header {
   background: grey;
   background-image: url(../img/hero.jpg);
@@ -432,16 +440,17 @@ h1 h2 h3 h4 {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project__link:hover,
-.project__link:focus {
+.project__link:hover, .project__link:focus {
   background: #e2cccc;
 }
 
 .project__svg {
   display: flex;
   justify-content: center;
-  padding-top: 59px;
-  margin-bottom: 30px;
+  padding: 60px 0;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 .project__text {
@@ -450,11 +459,30 @@ h1 h2 h3 h4 {
   font-weight: 500;
   font-size: 21px;
   line-height: 1.47;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #000000;
   width: 172px;
-  margin: auto;
+  margin-top: 30px;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio__item {
+  width: 25%;
+  height: 407px;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio__photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate3d(-50%, -50%, 0);
 }
 /*# sourceMappingURL=main.css.map */
