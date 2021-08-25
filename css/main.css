@@ -169,8 +169,6 @@ h1 h2 h3 h4 {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 112px;
-  height: 171px;
 }
 
 .header__text {
@@ -187,7 +185,7 @@ h1 h2 h3 h4 {
 
 .hero-container {
   background: #F7F7F7;
-  margin-top: 120px;
+  margin-top: 170px;
 }
 
 .hero-list {
@@ -197,7 +195,7 @@ h1 h2 h3 h4 {
 
 .hero-item {
   margin-left: 154px;
-  padding: 64px 0 54px 0;
+  padding: 84px 0 54px 0;
 }
 
 .hero-item:first-child {
@@ -205,22 +203,24 @@ h1 h2 h3 h4 {
 }
 
 .hero-title {
+  margin-bottom: 39px;
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 72px;
-  line-height: 107px;
+  line-height: 0.8;
   text-align: center;
   text-transform: uppercase;
   color: #f7654a;
 }
 
 .hero-text {
+  margin-bottom: 21px;
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  line-height: 53px;
+  line-height: 0.8;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -231,7 +231,7 @@ h1 h2 h3 h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 0.8;
   text-align: center;
   color: #999999;
 }
@@ -528,5 +528,9 @@ h1 h2 h3 h4 {
   margin-top: 20px;
   padding: 0 15px;
   color: rgba(207, 241, 241, 0.9);
+}
+
+.answers {
+  padding: 150px 0;
 }
 /*# sourceMappingURL=main.css.map */

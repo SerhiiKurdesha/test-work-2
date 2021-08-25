@@ -1,7 +1,6 @@
 .hero-container{
-
     background: $second-white-color;
-    margin-top: 120px;
+    margin-top: 170px;
 }
 .hero-list{
     display: flex;
@@ -9,28 +8,32 @@
 }
 .hero-item{
     margin-left: 154px;
-    padding: 64px 0 54px 0;
+    padding: 84px 0 54px 0;
 }
 .hero-item:first-child{
     margin-left: 0;
 }
 .hero-title{
+    margin-bottom: 39px;
+
     font-family: $second-font;
     font-style: normal;
     font-weight: 500;
     font-size: 72px;
-    line-height: 107px;
+    line-height: 0.8;
     text-align: center;
     text-transform: uppercase;
     
     color: $accent-color;
 }
 .hero-text{
+    margin-bottom: 21px;
+    
     font-family: $second-font;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    line-height: 53px;
+    line-height: 0.8;
     text-align: center;
     text-transform: uppercase;
 
@@ -41,7 +44,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 27px;
+    line-height: 0.8;
     text-align: center;
 
     color: $gray-color;
