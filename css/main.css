@@ -533,4 +533,15 @@ h1 h2 h3 h4 {
 .answers {
   padding: 150px 0;
 }
+
+.answers__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
 /*# sourceMappingURL=main.css.map */
