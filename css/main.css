@@ -535,6 +535,7 @@ h1 h2 h3 h4 {
 }
 
 .answers__title {
+  margin-bottom: 50px;
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -605,9 +606,25 @@ h1 h2 h3 h4 {
 
 .accordion__text {
   display: none;
-  padding: 10px 0 0 0;
+  padding: 30px 0 0 0;
   font-style: normal;
   line-height: 1.4;
   color: #999999;
+}
+
+.partners {
+  padding: 100px 0;
+  background: #404149;
+}
+
+.partners__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
