@@ -51,3 +51,26 @@
     width: 290px;
     padding-top: 26px;
 }
+.reviews__list-of-name{
+    display: flex;
+    justify-content: end;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.reviews__name{
+    margin-right: 68px;
+    font-family: $second-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.47;
+    letter-spacing: 0.02em;
+    color: $black-color;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.reviews__span{
+    color: $accent-color;
+}
