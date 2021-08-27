@@ -622,9 +622,27 @@ h1 h2 h3 h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  line-height: 1.8;
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 72px;
+}
+
+.partners__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.partners__link:hover, .partners__link:focus {
+  background: #777e9191;
 }
 /*# sourceMappingURL=main.css.map */
