@@ -714,4 +714,19 @@ h1 h2 h3 h4 {
 .reviews__span {
   color: #f7654a;
 }
+
+.footer {
+  padding: 100px 0 150px 0;
+}
+
+.footer__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
 /*# sourceMappingURL=main.css.map */
