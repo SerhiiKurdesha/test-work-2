@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -186,7 +185,7 @@ h1 h2 h3 h4 {
 
 .hero-container {
   background: #F7F7F7;
-  margin-top: 170px;
+  margin-top: -150px;
 }
 
 .hero-list {
@@ -674,20 +673,6 @@ h1 h2 h3 h4 {
   border: 1px solid transparent;
   background: #F7F7F7;
   padding: 32px 30px 38px 30px;
-}
-
-.reviews__item:before {
-  content: url(/img/“.png);
-}
-
-.reviews__item:before {
-  display: contents;
-  width: 34px;
-  height: 28px;
-  font-family: "Oswald", sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #f7654a;
 }
 
 .reviews__item:last-child {
